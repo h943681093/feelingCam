@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/arttime_bg"
+    android:layout_margin="1dp"
+    >
+
+    <TextView
+        android:id="@+id/cenListTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#64A6E2"
+        android:text="2015年09月09日"
+        />
+    <TextView
+        android:id="@+id/cenHisFeeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_toLeftOf="@+id/cenListFeeling"
+        android:layout_marginRight="5dp"
+        android:textColor="#CECECE"
+        android:text="His Feeling："
+        />
+    <com.lcu.JavaTool.CircleImage
+        android:id="@+id/cenListFeeling"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/happyw"
+        />
+    <TextView
+        android:id="@+id/cenListFgx"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="5dp"
+        android:layout_below="@+id/cenListTime"
+        android:background="#dedede"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="9dp"
+        />
+    <TextView
+        android:id="@+id/cenListContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:layout_below="@id/cenListFgx"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#494848"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:text="是熟了的快乐是；adjaakjd；爱的；ad回家三发的发的的发的发的地方地方等奖加厚的骄傲和大家回家阿萨德啊飒飒的打底裤是阿里的开始就爱的家；阿迪 "
+        />
+
+
+</RelativeLayout>

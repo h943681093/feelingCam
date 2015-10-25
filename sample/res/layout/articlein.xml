@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#F9F9F9"
+    >
+    <RelativeLayout
+        android:id="@+id/artTitlein"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3086F2"
+
+        >
+        <ImageButton
+            android:id="@+id/artheadback"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/head_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:clickable="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/artNamein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/artTitlein"
+        android:text="文章名字"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#919191"
+        android:textSize="19sp"
+        />
+
+    <TextView
+        android:id="@+id/artFgx"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="5dp"
+        android:layout_below="@+id/artNamein"
+        android:background="#dedede"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="19dp"
+        />
+    <include layout="@layout/artinculde"/>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#FFFFFF"
+       >
+
+       <TextView
+           android:id="@+id/artName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:padding="5dp"
+           android:layout_marginLeft="15dp"
+           android:textColor="#454545"
+           android:text="文章标题"
+           android:textSize="18sp"
+           />
+       <TextView
+           android:id="@+id/artContent"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_below="@id/artName"
+           android:layout_marginTop="3dp"
+           android:layout_marginLeft="15dp"
+           android:textColor="#CECECE"
+           android:padding="5dp"
+           android:textSize="16sp"
+           android:text="是熟了的快乐是；adjaakjd；爱的；ad回家三发的发的的发的发的地方地方等奖加厚的骄傲和大家回家阿萨德啊飒飒的打底裤是阿里的开始就爱的家；阿迪 "
+           />
+        <TextView
+            android:id="@+id/arcTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/artContent"
+            android:padding="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#64A6E2"
+            android:text="2015年09月09日"
+            />
+
+   </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/showTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3086F2"
+        >
+        <ImageButton
+            android:id="@+id/showheadback"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/head_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="心情园"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginLeft="45dp"
+            android:textColor="#F2F2F4"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <com.astuetz.RefreshableListView
+        android:id="@+id/showLv"
+        android:layout_marginTop="45dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:scrollingCache="false"
+        />
+</RelativeLayout>

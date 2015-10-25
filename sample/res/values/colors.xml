@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="green">#689F38</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="banana">#FFCC00</color>
+    <color name="seachicon">#2898E7</color>
+    <color name="titlecolor">#17B4EB</color>
+
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="blue_semi_transparent">#3498db</color>
+    <color name="blue_semi_transparent_pressed">#2980b9</color>
+</resources>

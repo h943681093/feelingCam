@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:id="@+id/linespierl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/lines_cardinbg"
+    >
+
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp" />
+    <EditText
+        android:id="@+id/selectDate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toLeftOf="@+id/charting"
+        android:background="@drawable/send_edit_bg"
+        android:focusable="false"
+        android:gravity="center_vertical|left"
+        android:layout_below="@+id/chart1"
+        android:hint="点击选择日期"
+        android:paddingLeft="15dp"
+        android:textColor="#6A6E6D" />
+
+    <Button
+        android:id="@+id/charting"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/chart1"
+        android:background="@drawable/button_selector"
+        android:text="生成图表" />
+
+    <TextView
+        android:id="@+id/barFgx"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="5dp"
+        android:layout_below="@+id/charting"
+        android:background="#dedede"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="9dp"
+        />
+    <TextView
+        android:id="@+id/barResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="75dp"
+        android:gravity="left"
+        android:padding="5dp"
+        android:layout_below="@+id/barFgx"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/linespierl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/lines_cardinbg"
+        >
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_below="@+id/selectDate"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        />
+        <Button
+            android:id="@+id/aweekChart"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="@drawable/button_selector"
+            android:text="一周心情图"
+            android:layout_below="@+id/piechart"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            />
+        <Button
+            android:id="@+id/amoonChart"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:background="@drawable/button_selector"
+            android:text="一月心情图"
+            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/piechart"
+            />
+        <TextView
+            android:id="@+id/pieFgx"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="5dp"
+            android:layout_below="@+id/amoonChart"
+            android:background="#dedede"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="9dp"
+            />
+        <TextView
+            android:id="@+id/pieResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="75dp"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:layout_below="@+id/pieFgx"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

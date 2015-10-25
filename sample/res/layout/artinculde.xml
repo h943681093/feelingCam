@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_below="@+id/artFgx"
+    android:background="#F9F9F9"
+    android:scrollbars="none"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/artPicturein"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/artFgx"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:id="@+id/artContentin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artPicturein"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#494848"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:lineSpacingExtra="3dp"
+        android:textScaleX="1"
+        android:text=""
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/artContentin"
+        android:layout_marginTop="8dp"
+        android:id="@+id/artbtmlogo"
+        android:background="@drawable/artbtmlogo"/>
+    <TextView
+        android:id="@+id/artTimein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015年09月07日"
+        android:textSize="17sp"
+        android:textColor="#6A6E6D"
+        android:layout_below="@+id/artContentin"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
+
+</ScrollView>

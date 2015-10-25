@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="gb2312" standalone="no" ?>
+<datacenter>
+    <root filePath="C:\Users\Administrator\Desktop\lcu.mapx" title="地图文档" subject="" author="" category="" keywords="" comments="" version="MapGIS K10">
+        <ClibDir6x></ClibDir6x>
+        <SlibDir6x></SlibDir6x>
+        <subnode name="lcu" mapguid="b5252cad-2281-46b6-992a-8c7be0098b34" LegendBoardGUID="00000000-0000-0000-0000-000000000000" LegendBoardID="-1" type="Map" class="CreateMap@GisCartoPrj.dll">
+            <description></description>
+            <isDisplayOnLayout>1</isDisplayOnLayout>
+            <isCustomEntireExtent>0</isCustomEntireExtent>
+            <customEntireExtent xmin="0." ymin="0." xmax="0." ymax="0."></customEntireExtent>
+            <viewExtent xmin="-34361619.0364858" ymin="-20037508.3427892" xmax="34361619.0364858" ymax="20037508.3427892"></viewExtent>
+            <minScale>0.</minScale>
+            <maxScale>0.</maxScale>
+            <isFixedScalesDisplay>0</isFixedScalesDisplay>
+            <isProjTrans>0</isProjTrans>
+            <rotateCenter>
+                <X>0.</X>
+                <Y>0.</Y>
+            </rotateCenter>
+            <rotateAngle>0.</rotateAngle>
+            <backColor>9</backColor>
+            <backgroundImage></backgroundImage>
+            <displayHint>1</displayHint>
+            <imageLayerZoom>-1</imageLayerZoom>
+            <fixedScales></fixedScales>
+            <subnode name="BaiduMap" type="ImageLayer" class="CreateGLayer@GisCartoPrj.dll" LayerClassCode="0">
+                <url>http://Baidu.com/BaiduMap</url>
+                <layerWeight>0</layerWeight>
+                <state>VISIBLE</state>
+                <minScale>0.</minScale>
+                <maxScale>0.</maxScale>
+                <isShowGrid>0</isShowGrid>
+                <isShowCopyright>0</isShowCopyright>
+                <isFirePrefetchEvent>0</isFirePrefetchEvent>
+                <isFireDrawEvent>0</isFireDrawEvent>
+                <accessMode>1</accessMode>
+                <transparent>0</transparent>
+                <mapServer serverType="BaiduMap" minZoom="3" maxZoom="18"></mapServer>
+                <cacheLocation>D:\mapgis\MapGIS 10\Sample\MapServerCache</cacheLocation>
+                <cacheClass>CreateSQLiteTileCache@GisCartoPrj.dll</cacheClass>
+                <Extend></Extend>
+            </subnode>
+            <bookMarks></bookMarks>
+            <Extend>
+                <InitOpenView>true</InitOpenView>
+            </Extend>
+            <GraphicsData dispos="0">
+                <Graphics_ann>R0RCRFVNUEYBAAEAAAAAAAUAAAAkAAAAYTYzOGY5OGQtYmE3MS00YThhLTlmNzQtMjA0M2IwYjVkZjcxBgAAAAQAAAAAAAAAUAAAAAAAAAAAAQAAAAAAAIgBAAAAAAAAAgAAAAAAAAD/////////////////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqpmZmZmZuX+qmZmZmZm5f6qZmZmZmbn/qpmZmZmZuf8AAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAckTfBwoLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgBQAAAQAAAAAAAAD/////gAEAAAAAAADABQAAAAAAAAAAAAAAAAAAcEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAQAAAAAAAAAAAgAAAAAAAAD/////////////////////</Graphics_ann>
+                <Graphics_Pnt>R0RCRFVNUEYBAAEAAAAAAAEAAAAkAAAANzczMmUwNDUtMTY3MC00MTU0LTgzMGQtZjllOGJmZmEwNWMzDAAAAAQAAAAAAAAAQAAAAAAAAAA4AAAAAAAAAP//////////AAAAAAAAAABYAAAAAAAAAP//////////////////////////////////////////iAEAAAAAAAACAAAAAAAAAP//////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACqmZmZmZm5f6qZmZmZmbl/qpmZmZmZuf+qmZmZmZm5/wAAAAAAAWUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAA//////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIEEAACBBAAAAAM3MTD3NzEw9zcxMPQUAAAAEAAAAAwAAAAABAACAPwEAAABYAAAAAAAAAP//////////////////////////////////////////ckTfBwoLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgBQAAAQAAAAAAAAD/////gAEAAAAAAADABQAAAAAAAAAAAAAAAAAAcEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAQAAAAAAAAAAAgAAAAAAAAD//////////w==</Graphics_Pnt>
+                <Graphics_Lin>R0RCRFVNUEYBAAEAAAAAAAIAAAAkAAAAMDgzNWY2OTYtMzI0Yy00MDgwLTgwYjgtNGE4OGJjNDFhMzI3DAAAAAQAAAAAAAAAQAAAAAAAAAA4AAAAAAAAAP///////////////////////////////wAAAAAAAAAATwAAAAAAAAD/////////////////////iAEAAAAAAAACAAAAAAAAAP//////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACqmZmZmZm5f6qZmZmZmbl/qpmZmZmZuf+qmZmZmZm5/wAAAAAAAWUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAA////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAzcxMPc3MTD3NzEw9AQAAAAQAAAADAAAAAAAAAAAAIEEAACBBTwAAAAAAAAD/////////////////////ckTfBwoLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgBQAAAQAAAAAAAAD/////gAEAAAAAAADABQAAAAAAAAAAAAAAAAAAcEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAQAAAAAAAAAAAgAAAAAAAAD//////////w==</Graphics_Lin>
+                <Graphics_Reg>R0RCRFVNUEYBAAEAAAAAAAMAAAAkAAAANjY1YThjN2ItZTRkOS00YWFmLTk3ODEtNTQyY2QzZTcxN2I2DAAAAAQAAAAAAAAAQAAAAAAAAAA4AAAAAAAAAP////////////////////////////////////////////////////8AAAAAAAAAAEoAAAAAAAAAiAEAAAAAAAACAAAAAAAAAP//////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAACqmZmZmZm5f6qZmZmZmbl/qpmZmZmZuf+qmZmZmZm5/wAAAAAAAWUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAA/////////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABQAAAAAAAAAAAKBAAACgQAAAAAADAAAAAACAPwFKAAAAAAAAAHJE3wcKCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AUAAAEAAAAAAAAA/////4ABAAAAAAAAwAUAAAAAAAAAAAAAAAAAAHBEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAEAAAAAAAAAAAIAAAAAAAAA//////////8=</Graphics_Reg>
+                <state>VISIBLE</state>
+                <systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+            </GraphicsData>
+        </subnode>
+        <layout class="CreateLayOut@GisCartoPrj.dll">
+            <height>841.000000</height>
+            <width>594.000000</width>
+            <elements>
+                <element bFixAspect="0" bCanScale="1" bCanRotate="0" sysLibGuid="00000000-0000-0000-0000-000000000000" DynamicGridVisible="0" type="MapElement" class="CreateGElement@GisCartoPrj.dll" MapName="lcu" MapGuid="b5252cad-2281-46b6-992a-8c7be0098b34">
+                    <MapElementCustiomViewExtent>
+                        <xmin>0.</xmin>
+                        <ymin>0.</ymin>
+                        <xmax>594.</xmax>
+                        <ymax>841.</ymax>
+                    </MapElementCustiomViewExtent>
+                    <Extend></Extend>
+                    <border visible="0" xGrap="0." yGrap="0." BorderType="0">
+                        <SimpleBorderInfo cornerRounding="0" FillType="0" lib="0" id="0" ovprnt="0" outpenw="0.;0.;0." outclr="0;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="0." yscale="0."></SimpleBorderInfo>
+                        <LaceBorderInfo>
+                            <corners>
+                                <cornerLB dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"></cornerLB>
+                                <cornerRB dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"></cornerRB>
+                                <cornerRT dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"></cornerRT>
+                                <cornerLT dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"></cornerLT>
+                            </corners>
+                            <borders adjustmode="0">
+                                <borderleft gap="0."></borderleft>
+                                <borderright gap="0."></borderright>
+                                <bordertop gap="0."></bordertop>
+                                <borderbottom gap="0."></borderbottom>
+                                <borderclose gap="0."></borderclose>
+                            </borders>
+                            <lines></lines>
+                            <draworder>0</draworder>
+                        </LaceBorderInfo>
+                    </border>
+                    <background visible="0" cornerRounding="0" xGrap="0." yGrap="0.">
+                        <info lib="0" id="0" ovprnt="0" fillmode="0" fillclr="0" endclr="0" pathei="0." patwid="0." ang="0." patclr="0" outpenw="0." fullpatflg="0"></info>
+                    </background>
+                    <shadow visible="0" cornerRounding="0" xGrap="0." yGrap="0.">
+                        <info lib="0" id="0" ovprnt="0" fillmode="0" fillclr="0" endclr="0" pathei="0." patwid="0." ang="0." patclr="0" outpenw="0." fullpatflg="0"></info>
+                    </shadow>
+                    <LogicRect xmin="0." ymin="0." xmax="594." ymax="841."></LogicRect>
+                    <viewRect xmin="0." ymin="0." xmax="594." ymax="841."></viewRect>
+                </element>
+            </elements>
+            <bookMarks></bookMarks>
+            <Extend></Extend>
+        </layout>
+        <Extend></Extend>
+    </root>
+</datacenter>
